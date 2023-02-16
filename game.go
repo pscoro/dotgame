@@ -247,11 +247,6 @@ func (g *game) update(i int, j int) {
 			g.board[toClaim[i][0]][toClaim[i][1]] = Claimed1
 		}
 	}
-
-	// if len(newDots) > 0 {
-	// 	return true
-	// }
-	// return false
 }
 
 func (g *game) makeMove(prevTileX int, prevTileY int, newTileX int, newTileY int) {
